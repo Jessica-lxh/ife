@@ -1,0 +1,41 @@
+body{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.title-main{
+    color: white;
+    background-color: rgba(7, 207, 147, 0.767);
+    margin-right: 25px;
+    padding: 30px 60px;
+}
+
+.sinfo-container{
+    display: flex;
+}
+
+.sinfo-item{
+    margin-right: 35px;
+}
+
+.sinfo-item-attribute{
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.linfo-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.linfo-item-attribute{
+    font-weight: bold;
+}
+
+.menu-css{
+    display: flex;
+    flex-direction: column;
+}
