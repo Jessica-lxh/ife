@@ -1,0 +1,82 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.twoc,
+.threec {
+    border: 3px dashed rgba(255, 174, 0, 0.699);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.twoc-left-1, .twoc-right-1,
+.twoc-left-2, .twoc-right-2,
+.twoc-left-3, .twoc-right-3,
+.threec-left-1, .threec-center-1, .threec-right-1,
+.threec-left-2, .threec-center-2, .threec-right-2 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+}
+
+.twoc-left-1 {
+    left: 20px;
+    width: 28%;
+    position: absolute;
+}
+
+.twoc-right-1 {
+    margin-left: calc(28% + 33px);
+    width: 68.5%;
+}
+
+.twoc-left-2 {
+    left: 20px;
+    width: 200px;
+    position: absolute;
+}
+
+.twoc-right-2 {
+    margin-left: 220px;
+}
+
+.twoc-left-3 {
+    width: calc(100% - 260px);
+    position: absolute;
+}
+
+.twoc-right-3 {
+    margin-left: calc(100% - 200px);
+    width: 200px;
+}
+
+.threec-left-1,
+.threec-left-2 {
+    left: 20px;
+    width: 200px;
+    position: absolute;
+}
+
+.threec-center-1 {
+    left: 240px;
+    right: 240px;
+    width: calc(100% - 480px);
+    position: absolute;
+}
+
+.threec-right-1 {
+    margin-left: calc(100% - 200px);
+    width: 200px;
+}
+
+.threec-center-2 {
+    left: 240px;
+    width: 200px;
+    position: absolute;
+}
+
+.threec-right-2 {
+    margin-left: 440px;
+}

@@ -1,0 +1,95 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.twoc,
+.threec {
+    overflow: auto; //清除浮动
+    box-sizing: border-box;
+    border: 3px dashed rgba(255, 174, 0, 0.699);
+    padding: 20px;
+    margin: 20px;
+}
+
+.twoc-left-1 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: left;
+    width: 29%;
+}
+
+.twoc-right-1 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: right;
+    width: 69%;
+}
+
+.twoc-left-2 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: left;
+    width: 200px;
+}
+
+.twoc-right-2 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: right;
+    width: calc(100% - 220px);
+}
+
+.twoc-left-3 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: left;
+    width: calc(100% - 220px);
+}
+
+.twoc-right-3 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: right;
+    width: 200px;
+}
+
+.threec-left-1,
+.threec-left-2 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: left;
+    width: 200px;
+}
+
+.threec-center-1 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: left;
+    margin-left: 20px;
+    width: calc(100% - 440px);
+}
+
+.threec-right-1 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.threec-center-2 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: left;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.threec-right-2 {
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 204, 255, 0.699);
+    float: right;
+    margin-left: 20px;
+    width: calc(100% - 440px);
+}
